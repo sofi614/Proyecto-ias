@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    font-family: Arial;
+    color: #000000;
+    background-color: #f4f4f4;
+}
+
+header{
+    background-color: #8af77c;
+    padding: 5px;
+}
+
+h1 {
+    color: #1b8e0c;
+}
+h2,h3{
+    color: #1b8e0c;
+}
+
+p {
+    line-height: 1.5;
+    text-align: left;
+}
+
+a {
+    padding: 40px;
+    color: black;
+    text-decoration: none;
+}
+
+/* a:hover{
+    color: black;
+   border-color: #f4f4f4;
+    padding: 11px;
+} */
+
+#menu-principal{
+    background-color: #1b8e0c;
+    font-size: 25px;
+    padding-bottom: 3%;
+    padding: 10px;
+    color: #000000;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+footer{
+    background-color: #1b8e0c;
+    padding: 20px;
+    font-size: 16px;
+}
+
+#formulario-contacto {
+    margin-top: 10px;
+}
+
+#Edificio {
+    margin-left: 30%;
+}
