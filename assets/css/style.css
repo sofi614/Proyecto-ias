@@ -25,17 +25,11 @@ p {
     text-align: left;
 }
 
-a {
-    padding: 40px;
-    color: black;
-    text-decoration: none;
+.container{
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    min-height: 100vh;
 }
-
-/* a:hover{
-    color: black;
-   border-color: #f4f4f4;
-    padding: 11px;
-} */
 
 #menu-principal{
     background-color: #1b8e0c;
@@ -64,4 +58,23 @@ footer{
 
 #Edificio {
     margin-left: 30%;
+}
+
+nav ul{
+    background-color: rgb(56, 172, 61);
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+nav ul li a {
+    font-size: 32px;
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: black;
+    background-color: #1b8e0c;
+    
 }
