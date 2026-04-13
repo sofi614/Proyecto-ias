@@ -78,3 +78,9 @@ nav ul li a:hover{
     background-color: #1b8e0c;
     
 }
+
+main section ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
