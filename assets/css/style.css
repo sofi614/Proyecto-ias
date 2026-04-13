@@ -84,3 +84,21 @@ main section ul{
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+form label{
+    width: 100%;
+}
+
+form section , form input{
+    width: 100%;
+}
+
+form textarea, form button{
+    width: 100%;
+}
